@@ -1,0 +1,15 @@
+body{
+    background-color: hsl(0,0%,80%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sub2,#sub3{
+    margin-top:800px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    color:white;
+}
