@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form method="post" action="http://hebertphp.awardspace.us/recebe.php">
+        <label for="login">Login</label> <input type="text" id="login" value="Usuario" name="login" required placeholder="Digite o login"><b>*</b><br>
+        <label for="senha">Senha</label> <input type="password" id="senha" name="senha" value="1234" required placeholder="Digite a senha">*<br>
+        Data <input type="datetime-local" id="data" name="data"><br>
+        <h2>Linguagens de Programação</h2>
+        <input type="checkbox" name="php" id="php" value="php"><label for="php">PHP</label> <br>
+        <input type="checkbox" name="js" id="js" checked><label for="js">JS</label> <br>
+        <input type="checkbox" name="sql" id="sql"><label for="sql">SQL</label> <br>
+        <h2>Dia da semana da aula de HTML e CSS</h2>
+        <input type="radio" name="semana" value="2a" id="2a" required><label for="2a">2a</label><br>
+        <input type="radio" name="semana" value="3a" id="3a"><label for="3a">3a</label><br>
+        <input type="radio" name="semana" value="4a" id="4a"><label for="4a">4a</label><br>
+        <input type="radio" name="semana" value="5a" id="5a"><label for="5a">5a</label><br>
+        <input type="radio" name="semana" value="6a" id="6a"><label for="6a">6a</label><br>
+        <input type="hidden" name="vai" value="Ja foi">
+        UF <select name="uf">
+            <option>RJ</option>
+            <option value="MG">MG</option>
+            <option selected>SP</option>
+            <option>ES</option>
+        </select><br>
+        Msg<textarea name="msg" rows="10" cols="60">Digite</textarea>
+        <!-- 
+        type="text"
+        type="checkbox"
+        type="password"
+        type="radio"
+        type="date"
+
+        ()2a <input type= "radio">
+        ()3a
+        ()4a
+        (*)5a
+        ()6a
+        
+        -->
+
+        <input type="submit" value="Enviar!"><input type="reset" value="Limpar">
+    </form>
+    * - Campo obrigatório
+</body>
+</html>
