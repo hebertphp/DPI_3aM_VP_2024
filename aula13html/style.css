@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif4;
+}
+h1,span,p{
+    background-color: brown;
+}
+p{
+    display:inline;
+}
+span{
+    display: block;
+}
+label{
+    width:50px;
+    display: inline-block;
+}
+
+@media(max-width:780px){
+    /* 780px dica: width, max-width, min-width*/
+    label{
+        display:block;
+    }
+    h1{
+        background-color: orange;
+    }
+    body{
+        background-color: lightblue;
+    }
+
+}
+input:nth-of-type(2){
+    background-color: green;
+}
